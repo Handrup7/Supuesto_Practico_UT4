@@ -1,14 +1,19 @@
 import java.util.Scanner;
 
 public class NumerosPrimos {
+    static Scanner t = new Scanner(System.in);
+
     public static void main(String[] args) {
-        Scanner t = new Scanner(System.in);
         int numero1, numero2;
-        boolean primos;
         System.out.print("Introduzca primer numero: ");
         numero1 = t.nextInt();
         System.out.print("Introduzca segundo numero: ");
         numero2 = t.nextInt();
+        listaPrimos(numero1, numero2);
+    }
+
+    private static void listaPrimos(int numero1, int numero2) {
+        boolean primos;
         int mayor, menor;
         if (numero1 > numero2) {
             mayor = numero1;
