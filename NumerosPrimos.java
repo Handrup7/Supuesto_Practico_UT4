@@ -3,12 +3,12 @@ import java.util.Scanner;
 /**
  * Clase que hace un recorrido entre dos números y muestra los que son primos
  */
-
 public class NumerosPrimos {
     static Scanner t = new Scanner(System.in);
 
     /**
      * Base del programa principal que ejecuta el programa
+     *
      * @param args argumentos vacíos que no se usan
      */
     public static void main(String[] args) {
