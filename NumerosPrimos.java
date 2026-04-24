@@ -4,6 +4,9 @@ import java.util.Scanner;
  * Clase que hace un recorrido entre dos números y muestra los que son primos
  */
 public class NumerosPrimos {
+    /**
+     * The T.
+     */
     static Scanner t = new Scanner(System.in);
 
     /**
